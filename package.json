@@ -1,0 +1,17 @@
+{
+  "name": "netapp_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vinay",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "content-filter": "^1.1.1",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
+}

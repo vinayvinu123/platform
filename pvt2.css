@@ -1,0 +1,147 @@
+div.block1 {
+    width: 100%;
+	height:900px;
+	
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #000066;
+    clear: left;
+    text-align: center;
+	
+	height:20px;
+}
+header img{
+	margin-left:80px;
+	
+	height:40px;
+	width:55px;
+	padding-top:5px;
+	padding-bottom:10px;
+	margin-bottom:4px;
+	
+}
+ div.block2{
+	 width:100%;
+	 height:100px;
+	 background-color:darkblue;
+	 
+ }
+ div.block3{
+	 width:100%;
+	 height:250px;
+ }
+ nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+  
+	height:100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top:10px;
+	
+	
+}
+   
+nav ul a {
+    text-decoration: none;
+	color:white;
+	
+}
+article {
+    margin-left: 168px;
+    border-left: 1px solid gray;
+   
+	
+    overflow: hidden;
+}
+article h1{
+	color:white;
+
+	margin:0;
+	height:70px;
+	padding-bottom:0px;
+	padding-left:5px;
+	padding-top:30px;
+	
+	
+}
+article span{
+	font-size:30px;
+	cursor:pointer;
+	max-width:450px;
+	margin-top:30px;
+    
+	
+	
+	
+}
+div.block1 input{
+	
+height:30px;  
+   width: 360px;
+   margin-left:500px;
+	
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+div.block1 input[type=text]:focus {
+    width: 400px;;
+}
+
+div.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+div.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+div.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+img{
+	
+	margin-left:400px;
+	padding-top:150px;
+   
+	height:92px;
+	width:300px;
+}
+ul {
+	float: left;
+    max-width:160px;
+    margin: 20px;
+    padding: 1em;
+	
+}
